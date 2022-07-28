@@ -3,13 +3,52 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+body {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+img {
+  width: 40px;
+  height: auto;
+}
+
+.bgChoices {
+  display: flex;
+  justify-content: center;
+}
+
+.credits {
+  z-index: calc(var(--omnibox-z-index) - 1);
+  bottom: 24px;
+  left: 24px;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-align: center;
+  position: fixed;
+  width: 200px;
+}
+
+.credits span {
+  font-size: 20px;
+}
 
 
 
