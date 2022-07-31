@@ -14,8 +14,11 @@
 /*******************************************/
 
 body {
-  background: url('../images/cockpit.png') no-repeat center center fixed;
-  background-size: cover;
+  background-image: url('../images/cockpit.png'), url('../images/stars.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center, center center;
+  background-attachment: fixed, fixed;
+  background-size: cover, cover;
 }
 
 body {
@@ -63,10 +66,7 @@ img {
 
 li {
   list-style-position: inside;
-  border: 1px solid black;
-  padding: 5px;
-  background: rgba(255, 255, 255, 0.7);
-  overflow: hidden;
+
 }
 
 
@@ -74,25 +74,31 @@ h1 {
   background-color: rgba(255, 255, 255, 0.7);
   overflow: hidden;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   font-size: 83px;
   -webkit-text-fill-color: rgba(255, 255, 255, 0.7);
   -webkit-text-stroke: 2px black;
   /* margin: 450px 0px 0px 0px; */
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  z-index: calc(var(--omnibox-z-index) - 1);
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-align: center;
+  position: fixed;
+  width: 200px;
+
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-.cockpit {
-  position: absolute;
-  /* top: 10px;
-  left: 10px; */
-  z-index: 1;
-}
-
-.backgroundImage {
-  position: absolute;
-  z-index: 2;
-}
