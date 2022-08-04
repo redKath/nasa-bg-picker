@@ -1,6 +1,6 @@
 # NASA View Picker
 
-![Video Demo](https://user-images.githubusercontent.com/47875009/182744945-22ce140c-f18c-4f85-be44-757c4b5c4d65.mp4)
+https://user-images.githubusercontent.com/47875009/182744945-22ce140c-f18c-4f85-be44-757c4b5c4d65.mp4
 
 ## Welcome! 👋
 
