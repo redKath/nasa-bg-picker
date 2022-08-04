@@ -1,6 +1,6 @@
 # NASA View Picker
 
-![Design preview for the QR code component coding challenge](/video%20demo/NASA%20View%20Picker%20%E2%80%94%20Demo.mp4)
+![Video Demo]https://user-images.githubusercontent.com/47875009/182744945-22ce140c-f18c-4f85-be44-757c4b5c4d65.mp4
 
 ## Welcome! 👋
 
